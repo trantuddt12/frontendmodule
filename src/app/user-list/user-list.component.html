@@ -1,0 +1,18 @@
+<p>user-list works!</p>
+<br>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>User Name</th>
+            <th>Post Code</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{user.username}}</td>
+            <td>{{user.password}}</td>
+            <td>{{user.postalCode}}</td>
+        </tr>
+    </tbody>
+</table>
